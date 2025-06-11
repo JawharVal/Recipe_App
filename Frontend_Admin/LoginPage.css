@@ -1,0 +1,116 @@
+/* Background & Container */
+.login-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1c1c1c, #2c2c2c); /* Dark gradient */
+    overflow: hidden;
+}
+
+/* Background Overlay Image */
+.background-overlay {
+    position: absolute;
+    inset: 0;
+    background: url("https://t3.ftcdn.net/jpg/09/48/02/26/360_F_948022685_cqZZ7XBrVHVCeIFzy4iFU4BXDKZv0CNI.jpg") center/cover no-repeat;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+/* Login Form */
+.login-form {
+    position: relative;
+    background: rgba(255, 255, 255, 0.9); /* Slightly translucent white */
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 380px;
+    text-align: center;
+    animation: fadeIn 0.8s ease-out;
+    z-index: 1;
+}
+
+/* Form Title */
+.form-title {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: #D4AF37; /* Gold color */
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* If you want a larger two-line title, you can alternatively use: */
+/*
+.form-titles {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #D4AF37;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+*/
+
+/* Error Message */
+.error-message {
+    color: #e74c3c; /* Red tone for errors */
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+/* Form Inputs */
+.form-label {
+    display: block;
+    font-size: 0.9rem;
+    text-align: left;
+    margin-top: 10px;
+    color: #555;
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-input:focus {
+    border-color: #D4AF37; /* Gold border on focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(212, 175, 55, 0.5);
+}
+
+/* Submit Button */
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #D4AF37; /* Gold */
+    color: #1c1c1c; /* Dark text */
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #b9972b; /* Slightly darker gold */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

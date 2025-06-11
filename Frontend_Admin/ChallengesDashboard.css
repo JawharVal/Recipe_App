@@ -1,0 +1,192 @@
+/* Overall container */
+.challenges-dashboard-container {
+    padding: 24px;
+    background: linear-gradient(135deg, #1c1c1c, #2c2c2c);
+    min-height: 100vh;
+    color: #D4AF37;
+    font-family: Arial, sans-serif;
+}
+
+/* Dashboard Title */
+.dashboard-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+/* Table Styling */
+.dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: center;
+}
+
+.dashboard-table th {
+    background-color: #D4AF37;
+    color: #1c1c1c;
+    font-weight: bold;
+}
+
+.dashboard-table tr:nth-child(even) {
+    background-color: #2c2c2c;
+}
+
+.dashboard-table tr:nth-child(odd) {
+    background-color: #1c1c1c;
+}
+/* Button to Add a New Challenge */
+.add-challenge-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-add-challenge {
+    padding: 10px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    background-color: #D4AF37;
+    color: #1c1c1c;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-add-challenge:hover {
+    background-color: #b3952f;
+}
+
+/* Extra styling in the Add Challenge Modal */
+.modal-label {
+    font-weight: bold;
+    margin-top: 8px;
+}
+/* Section Titles */
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 24px 0 16px;
+    text-align: center;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    padding: 20px;
+}
+
+/* Modal Content */
+.modal-content {
+    background: #1c1c1c;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(212, 175, 55, 0.3);
+    width: 100%;
+    max-width: 600px;
+    color: #D4AF37;
+}
+
+/* Modal Header */
+.modal-header {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+/* Modal Grid */
+.modal-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.modal-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #D4AF37;
+    border-radius: 6px;
+    background: #2c2c2c;
+    color: #fff;
+}
+
+/* Modal Buttons */
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+/* Button Base */
+.btn {
+    padding: 10px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* Specific Button Styles */
+.btn-edit {
+    background-color: #27ae60;
+    color: white;
+}
+
+.btn-edit:hover {
+    background-color: #219150;
+}
+
+.btn-delete {
+    background-color: #c0392b;
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: #a93226;
+}
+
+.btn-cancel {
+    background-color: #ccc;
+    color: #333;
+}
+
+.btn-save {
+    background-color: #27ae60;
+    color: white;
+}
+
+/* Featured Winners & Leaderboard Table Header */
+.table-header {
+    background-color: #D4AF37;
+    color: #1c1c1c;
+    font-weight: bold;
+}
+
+/* Image Preview in Modal */
+.modal-image-preview {
+    margin-top: 8px;
+    width: 100px;
+    height: auto;
+}
+
+/* Challenge Image */
+.challenge-image {
+    width: 80px;
+    height: auto;
+}

@@ -1,0 +1,56 @@
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; /* Fixed height */
+    background: linear-gradient(135deg, #1c1c1c, #2c2c2c); /* Dark gradient background */
+    color: #D4AF37; /* Gold text color */
+    display: flex;
+    align-items: center;
+    padding: 0 10px; /* Internal horizontal spacing */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+/* Container for Admin Panel + Logo */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between the logo image and text */
+}
+
+/* Admin Panel Title */
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Logo Image */
+.navbar-logo {
+    width: 40px; /* Adjust as needed */
+    height: auto;
+    object-fit: contain;
+}
+
+/* Logout Button */
+.logout-button {
+    margin-left: auto;  /* Pushes the button to the far right */
+    margin-right: 20px; /* Space from the right edge */
+    background-color: transparent;
+    color: #D4AF37; /* Gold text color */
+    border: 2px solid #D4AF37; /* Gold border */
+    padding: 8px 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #D4AF37;
+    color: #1c1c1c;
+}

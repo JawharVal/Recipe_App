@@ -1,0 +1,214 @@
+/* Dashboard Container */
+.dashboard-container {
+    padding: 24px;
+    background: linear-gradient(135deg, #1c1c1c, #2c2c2c);
+    min-height: 100vh;
+    color: #D4AF37; /* Gold text */
+    font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.dashboard-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #D4AF37;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+/* Filters Section */
+.dashboard-filters {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.filter-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.filter-select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Specific Button Styles */
+.btn-add {
+    background-color: rgba(0, 253, 253, 0.55);
+    color: white;
+}
+.btn-add:hover {
+    background-color: #2980b9;
+}
+.btn-logout {
+    background-color: #e74c3c;
+    color: white;
+}
+.btn-logout:hover {
+    background-color: #c0392b;
+}
+.btn-view {
+    background-color: #D4AF37;
+    color: #1c1c1c;
+    padding: 6px 10px;
+    font-size: 0.9rem;
+}
+.btn-view:hover {
+    background-color: #b9972b;
+}
+.btn-edit {
+    background-color: #27ae60;
+    color: white;
+}
+.btn-edit:hover {
+    background-color: #219150;
+}
+.btn-delete {
+    background-color: #c0392b;
+    color: white;
+}
+.btn-delete:hover {
+    background-color: #a93226;
+}
+
+/* Table Styling */
+.dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.dashboard-table th,
+.dashboard-table td {
+    border: 1px solid #555;
+    padding: 8px;
+    text-align: center;
+}
+.dashboard-table th {
+    background-color: #D4AF37;
+    color: #1c1c1c;
+    font-weight: bold;
+}
+.dashboard-table tr:nth-child(even) {
+    background-color: #2c2c2c;
+}
+.dashboard-table tr:nth-child(odd) {
+    background-color: #1c1c1c;
+}
+
+/* User Image */
+.user-image {
+    width: 80px;
+    height: auto;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+
+/* Modal Content */
+/* Modal Content */
+/* Modal Content */
+.modal-content {
+    background: #2c2c2c;              /* Dark background */
+    color: #D4AF37;                  /* Gold accent text */
+    padding: 24px;
+    border-radius: 8px;
+    max-width: 800px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+}
+
+
+.modal-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #D4AF37;
+    padding-bottom: 8px;
+}
+/* Grid Layout for Modal */
+.modal-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-bottom: 16px;
+}
+.modal-grid label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.modal-grid input,
+.modal-grid select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Modal Buttons */
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 16px;
+}
+.btn {
+    padding: 10px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* Cancel Button */
+.btn-cancel {
+    background: #555;
+    color: #D4AF37;
+}
+.btn-cancel:hover {
+    background: #444;
+}
+
+/* Save/Action Button */
+.btn-save {
+    background: #D4AF37;
+    color: #1c1c1c;
+}
+.btn-save:hover {
+    background: #b9972b;
+}
+/* Checkbox Label in Modal */
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
