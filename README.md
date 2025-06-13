@@ -15,3 +15,12 @@
 * ✅ База данных MySQL
 * ✅ Административная панель на React
 * ✅ Мобильное приложение на Kotlin (Jetpack Compose)
+
+![Admin Panel Demo](VideoDemonstration/Admin%20Pannel.gif)
+![Video Demo](path/to/your/video.gif)
+![Video Demo](path/to/your/video.gif)
+![Video Demo](path/to/your/video.gif)
+![Video Demo](path/to/your/video.gif)
+![Video Demo](path/to/your/video.gif)
+![Video Demo](path/to/your/video.gif)
+![Video Demo](path/to/your/video.gif)
