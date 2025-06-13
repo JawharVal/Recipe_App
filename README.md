@@ -16,11 +16,27 @@
 * ✅ Административная панель на React
 * ✅ Мобильное приложение на Kotlin (Jetpack Compose)
 
+# Раздел «Аутентификация и регистрация»
+
+![Video Demo](VideoDemonstration/LOGIN%20and%20forgot.gif)
+# Раздел «Создание и управление рецептами»
+
+![Video Demo](VideoDemonstration/Recipe%20Creation.gif)
+# Раздел «Социальное взаимодействие и управление рецептами»
+
+![Video Demo](VideoDemonstration/Discover%20%2B%20Profile%20and%20details.gif)
+# Раздел «Планирование и списки покупок»
+
+![Video Demo](VideoDemonstration/Shoppin%20%2B%20Mealplan.gif)
+# Раздел «Книги рецептов»
+
+![Video Demo](VideoDemonstration/books.gif)
+# Раздел «Управление профилем и пользовательскими настройками»
+
+![Video Demo](VideoDemonstration/Profile%20and%20Settings%20and%20Subsc.gif)
+# Раздел «Участие в конкурсах рецептов»
+
+![Video Demo](VideoDemonstration/challenges.gif)
+# Раздел «Панель администратора»
+
 ![Admin Panel Demo](VideoDemonstration/Admin%20Pannel.gif)
-![Video Demo](path/to/your/video.gif)
-![Video Demo](path/to/your/video.gif)
-![Video Demo](path/to/your/video.gif)
-![Video Demo](path/to/your/video.gif)
-![Video Demo](path/to/your/video.gif)
-![Video Demo](path/to/your/video.gif)
-![Video Demo](path/to/your/video.gif)
